@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu_vertical {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 30%;
+  padding: 0%;
+}
+
+i {
+  margin-right: 10px;
+  color: #828485;
+}
+
+ul li {
+  border: 1px solid #bec1bb;
+}
+
+li p {
+    color: #828485;
+}
+
+.menu_vertical img {
+  border-radius: 20rem;
+  height: 60px;
+  width: 60px;
+  margin: 20px;
+}
+
+.maria-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.maria-estado {
+  display: flex;
+  align-items: center;
+}
+
+.maria-estado p {
+    font-weight: 100;
+}
+
+button {
+  background-color: #a491d2;
+  padding: 3% 80px;
+  border: none;
+  margin: 40px 30%;
+}
+
+button p {
+    font-size: 18px;
+    color: white;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+.seccion_ppal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vb;
+  background-color: #e8ebe4;
+  flex: 1 1 69%;
+}
+
+.seccion_ppal img {
+  height: 300px;
+  margin: 0px 100px 60px 100px;
+}
+
+.seccion_ppal p {
+  margin: 10px 250px;
+  text-align: center;
+  font-weight: 100;
+}
+
+h3 {
+  font-weight: 500;
+  color: #444749;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #1b1f21;
+}
